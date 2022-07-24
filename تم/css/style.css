@@ -1,0 +1,114 @@
+body{
+	background:#666;
+	margin:0px;
+	padding:0px;
+	font-family:tahoma;
+	font-size:13px;
+	direction:rtl;
+}
+#container{
+	width:800px;
+	margin:0px auto;
+	background:#fff;
+}
+#header{
+	height:140px;
+	background:url(../images/R.jpg) no-repeat;
+	
+}
+#siteTitle{
+	font-size:26px;
+	font-weight:bold;
+	position:relative;
+	top:60px;
+	right:60px;
+}
+#siteDescription{
+	position:relative;
+	top:60px;
+	right:60px;
+	margin-top:10px;
+}
+#topMenu{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-color:black;
+	background-image:url(../images/header.jpg) no-repeat;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+		float:right;
+}
+#topMenu li{
+	display:inline;
+}
+#topMenu li a{
+	color:fff;
+	padding: 9px 11px;
+	text-decoration:none;
+	border-left:1px solid #fff;
+	float:right;
+}
+#topMenu li a:hover, .active{
+	background:url(../images/bgactive.jpg) center center repeat-x;
+}
+#content{
+	width:800px;
+	display:flex;
+}
+#rightside{
+	width:250px;
+	background:#eee;
+	float:right;
+	padding:10px;
+	box-sizing:border-box;
+	text-align:justify;
+}
+#leftside{
+	width:550px;
+	float:right;
+	padding:10px;
+	box-sizing:border-box;
+	background:#fff;
+	text-align:justify;
+}
+.title{
+	font-size:20px;
+}
+.subtitle{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.boxgray{
+	background:#aaa;
+	padding:10px;
+}
+.boxred{
+	background:#7c0000;
+	color:#fff;
+	padding:10px;
+}
+#footer{
+	background:black;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+}
+.forminput{
+	display:block;
+	border:1px solid #eee;
+	font-family:tahoma;
+	padding:5px;
+	width:300px;
+	margin-bottom:10px;
+}
+button {
+	font-family:tahoma;
+	cursor:pointer;
+}
+#leftside p {
+	font-family:tahoma;
+	font-size:15px;
+	
+}
